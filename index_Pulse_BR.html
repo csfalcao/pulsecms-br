@@ -1,0 +1,1208 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- Facebook and Open Graph -->
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://pulsecms.com"/>
+        <meta property="og:title" content="Hand crafted site editor"/>
+        <meta property="og:description" content="Turn your existing beautiful web pages into editable online pages with Pulse."/>
+        <meta property="og:image" content="https://www.pulsecms.com/img/static-og.jpg"/>
+        <!-- Twitter Cards -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:domain" value="pulsecms.com"/>
+        <meta name="twitter:title" value="Hand crafted site editor"/>
+        <meta name="twitter:description" value="Turn your existing beautiful web pages into editable online pages with Pulse."/>
+        <meta name="twitter:image" content="https://www.pulsecms.com/img/static-og.jpg"/>
+        <meta name="twitter:url" value="https://www.pulsecms.com"/>
+        <title>Pulse - Editor artesanal de sites</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Turn your existing beautiful web pages into editable online pages with Pulse.">
+        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../css/stack-interface.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../css/socicon.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../css/flickity.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../css/iconsmind.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../css/jquery.steps.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../css/theme.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../css/font-roboto.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i%7CMaterial+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet"/>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-2675625-34', 'auto');
+          ga('send', 'pageview');
+        
+        </script>
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1056889437711913');
+        fbq('track', 'PageView');
+        </script>
+        <noscript>
+            <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1056889437711913&ev=PageView&noscript=1"/>
+        </noscript>
+        <!-- DO NOT MODIFY -->
+        <!-- End Facebook Pixel Code -->
+        <!-- Redirect for Japanese -->         
+        <script type="text/javascript" src="../js/language-detect_localstorage.js"></script>
+    </head>
+    <body class=" ">
+        <a id="start"></a>
+        <div class="nav-container">
+            <div>
+                <div class="bar bar--sm visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2">
+                                <a href="../index.html"> 
+                                    <img class="logo logo-dark" alt="logo" src="../img/logo-dark.png"> 
+                                    <img class="logo logo-light" alt="logo" src="../img/logo-light.png"> 
+                                </a>
+                            </div>
+                            <div class="col-xs-9 col-sm-10 text-right">
+                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav id="menu1" class="bar bar-1 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-2 hidden-xs">
+                                <div class="bar__module">
+                                    <a href="../index.html"> 
+                                        <img class="logo logo-dark" alt="logo" src="../img/logo-dark.png"> 
+                                        <img class="logo logo-light" alt="logo" src="../img/logo-light.png"> 
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-left">
+                                        <li class="dropdown"> 
+                                            <span class="dropdown__trigger">
+                                            Recursos </span>
+                                            <div class="dropdown__container">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="dropdown__content col-md-2">
+                                                            <ul class="menu-vertical">
+                                                                <li> 
+                                                                    <a href="index.html">Funcionamento</a> 
+                                                                </li>
+                                                                <li> 
+                                                                    <a href="../builder/">Construtor</a> 
+                                                                </li>
+                                                                <li> 
+                                                                    <a href="../cms/">CMS</a> 
+                                                                </li>
+                                                                <li> 
+                                                                    <a href="../pulse5/">Pulse5</a> 
+                                                                </li>
+                                                                <li> 
+                                                                    <a href="../ecommerce/">Ecommerce</a> 
+                                                                </li>
+                                                                <li> 
+                                                                    <a href="../hosting/">Hospedagem</a> 
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li> 
+                                            <a href="../stories/">
+                                        Clientes</a> 
+                                        </li>
+                                        <li class="dropdown"> 
+                                            <span class="dropdown__trigger">
+                                            Vai bem com </span>
+                                            <div class="dropdown__container">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="dropdown__content col-md-2">
+                                                            <ul class="menu-vertical">
+                                                                <li> 
+                                                                    <a href="../add-any-site/">Sites HTML e PHP</a> 
+                                                                </li>
+                                                                <li> 
+                                                                    <a href="../blocs-cms/">Blocs</a> 
+                                                                </li>
+                                                                <li> 
+                                                                    <a href="../rapidweaver-cms/">RapidWeaver</a> 
+                                                                </li>
+                                                                <li> 
+                                                                    <a href="../wordpress-alternative/">WordPress</a> 
+                                                                </li>
+                                                                <li> 
+                                                                    <a href="../desktop-blogging/">MarsEdit</a> 
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li> 
+                                            <a href="../pricing">
+										Preço</a> 
+                                        </li>
+                                        <li>
+                                            <a href="../login.php"> <span>Log in</span> </a>
+                                        </li>
+                                        <li>
+                                            <a href="../latest/">
+                                                <img src="../img/update.png" alt="latest updates!" width="25">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bar__module">
+                                    <a class="btn btn--sm type--uppercase" href="../freetrial.php" target="_self"> <span class="btn__text">INICIE O TESTE GRÁTIS</span> </a>
+                                    <a class="btn btn--sm btn--primary type--uppercase" href="../signup.php" target="_self"> <span class="btn__text">
+                                    COMPRE O PULSE</span> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="main-container">
+            <section class="imageblock switchable switchable--switch feature-large bg--dark space--sm">
+                <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                    <div class="background-image-holder">
+                        <img alt="image" src="../img/work-1.jpg"/>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-7 mt--2">
+                            <h1>De volta ao que interessa.</h1>
+                            <p class="lead">
+                                Habilite a edição de páginas do seu lindo site - e sem necessidade de instalar um exagero de CMS. Instale o Pulse com um simples copiar e colar e você e seus clientes vão amar manter um website novamente. <br/> </p>
+                            <div class="modal-instance block">
+                                <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
+                                <span> <strong>Assista o vídeo.</strong>&nbsp;&nbsp;&nbsp;45 segundos</span>
+                                <div class="modal-container">
+                                    <div class="modal-content bg-dark" data-width="60%" data-height="60%">
+                                        <iframe src="https://player.vimeo.com/video/210367616?autoplay=1&title=0&byline=0&portrait=0" width="1200" height="675" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                    </div>
+                                    <!--end of modal-content-->
+                                </div>
+                                <!--end of modal-container-->
+                            </div>
+                            <!--end of modal instance-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-center bg--dark" style="padding-top: 5.42857143em;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8">
+                            <h1>O problema</h1>
+                            <p class="lead"> Seu tempo indo pelo ralo, muito stress e updates sem fim.<br>Um designer sonha em fazer o que faz de melhor: design.&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center bg--dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="feature">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon--lg icon-Over-Time"></i> 
+                                    <span class="h5 color--primary">Tempo perdido</span> 
+                                </div>
+                                <p>Designers <i><b>perdem até 7 horas/semana</b></i> consertando e atualizando sites de clientes - sem receber nada por isto.<br></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="feature">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon--lg icon-Worker"></i> 
+                                    <span class="h5 color--primary">Treinamento constante é necessário</span> 
+                                </div>
+                                <p>Designers <span>disseram que </span><span> </span><i><b>gastam tempo dando treinamento e</b></i><span><b><i> suporte </i> </b>depois do lançamento do projeto e fim do contrato.</span></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <div class="feature">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon--lg icon-Angry"></i> 
+                                    <span class="h5 color--primary">Web designers insatisfeitos</span> 
+                                </div>
+                                <p> A maioria dos web designers<b><i> estão descontentes com o tipo de instalação</i></b> e ferramentas de layout do seu CMS atual.</p>
+                            </div>
+                        </div>
+                        <p><i>*  Baseado em pesquisa por telefone com 89 web designers e desenvolvedores que estão na trincheiras da web fazendo sites todos os dias.</i></p>
+                    </div>
+                </div>
+            </section>
+            <section class="switchable feature-large feature-large-13 bg--dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6"> 
+                            <img alt="Image" class="border--round box-shadow-wide" src="../img/comment.jpg" style="padding-top:  25px;"> 
+                        </div>
+                        <div class="col-sm-6 col-md-5">
+                            <div class="switchable__text">
+                                <h3>"Eu precisava encontrar uma maneira de converter meus sites para um CMS, sem ter que começar do zero".</h3>
+                                <p> Você conhece essa história... tentar encaixar novas funções no seu site atual (ou num novo site). Você <i>poderia </i>usar aquele CMS conhecido, mas já sabe que vai ter que lidar com uma (ou todas) as dores de cabeça que vem com ele:</p>
+                                <div class="text-block">
+                                    <h5>1. Customizar temas exatamente como você deseja é difícil</h5>
+                                    <p> <i>"O Pulse é de longe o CMS mais rápido de customizar.. a velocidade é ÉPICA!"</i></p>
+                                </div>
+                                <div class="text-block">
+                                    <h5>2. Um exagero de sistema pra sites com poucas páginas</h5>
+                                    <p> <i>"O Pulse é demais, eu não preciso gastar tempo pra treinar meus clientes ou dar suporte depois que o projeto está pronto."</i></p>
+                                </div>
+                                <div class="text-block">
+                                    <h5>3. Hospedar sem problema de velocidade e segurança é cara</h5>
+                                    <p> <i>"A maioria dos meus sites do Pulse estão em hospedagem compartilhada e funcionam muito bem. Sem necessidade de atualização ou travadas na velocidade."</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center" style="padding-bottom: 3.42857143em;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8">
+                            <h1>Apresentamos a solução</h1>
+                            <p class="lead"> Nada de magia aqui (por enquanto) 🦄&nbsp;<br>Apenas um CMS que põe o designer e seu cliente como ponto central.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="border--bottom space--xxs text-center">
+                <div class="container">
+                    <div class="row" style="padding-bottom: 3.42857143em;">
+                        <div class="col-sm-12">
+                            <div class="modal-instance">
+                                <a class="btn type--uppercase modal-trigger" href="#"> <span class="btn__text">
+                        							▶ Assista à visão geral </span> </a>
+                                <div class="modal-container">
+                                    <div class="modal-content bg-dark" data-width="60%" data-height="60%"> 
+                                        <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/2cPhmcMfC2Q?autoplay=1"></iframe>                                         
+                                    </div>
+                                </div>
+                            </div>                             
+                            <span class="block--xs">e descubra como o Pulse melhora a sua vida</span> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="imageblock switchable feature-large switchable--switch">
+                <div class="imageblock__content col-md-6 col-sm-4 pos-right">
+                    <div class="background-image-holder"> 
+                        <img alt="image" src="../img/inner-1.jpg"> 
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-7">
+                            <h2>Diga adeus ao suporte não remunerado ao cliente.</h2>
+                            <p class="lead"> "O que eu adoro no Pulse CMS é que ele não tenta ter uma interface perfeita ou outras firulas, ele tenta ser o mais fácil e direto possível e, assim, ele me poupa muito tempo na instalação e no uso de um CMS com pouco tempo de aprendizado. <br><br> Ele é um CMS feito para designers, que não precisam (e nem querem) aprender PHP pra entregar um job rápido e bem feito. <br><br> Ele é o CMS perfeito se você precisa adicionar um CMS a um modelo de site que baixou, sem precisar estudar a fundo o código do modelo. É fácil e permite terminar o job rapidamente."</p>
+                            <a class="btn btn--primary type--uppercase" href="../signup.php"> <span class="btn__text">
+                                                COMEÇE A USAR O PULSE HOJE </span> </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-md-offset-2">
+                            <h2>4 maneiras fáceis de adicionar o Pulse e tornar seus sites - publicados ou não - ainda mais bonitos.</h2>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="feature feature-3 boxed boxed--lg boxed--border"> 
+                                        <span class="h1 h1--large"><img alt="background" src="../img/html5.png" width="100"></span>
+                                        <h4>Opção 1: Copiar e colar</h4>
+                                        <p> Sem tocar em código, instale o Pulse no seu <a href="../add-any-site/">site HTML / PHP atual </a> usando apenas copiar e colar. Ou escolha um dos <a href="https://addons.pulsecms.com" target="_blank">modelos</a> pra começar.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="feature feature-3 boxed boxed--lg boxed--border"> 
+                                        <span class="h1 h1--large"><img alt="background" src="../img/blocs.png" width="100"></span>
+                                        <h4>Opção 2: Usar o Blocs</h4>
+                                        <p> Crie no <a href="../blocs-cms">Blocs</a> para Mac usando arrastar e soltar e exporte um site perfeito e compatível com o Pulse sem precisar de programação.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="feature feature-3 boxed boxed--lg boxed--border"> 
+                                        <span class="h1 h1--large"><img alt="background" src="../img/rapidweaver.png" width="100"></span>
+                                        <h4>Opção 3: Use o RapidWeaver</h4>
+                                        <p> Gere no <a href="../rapidweaver-cms/">RapidWeaver</a> para Mac um site usando o seu tema e Stacks favoritos e publique o site pronto pra CMS.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="feature feature-3 boxed boxed--lg boxed--border"> 
+                                        <span class="h1 h1--large"><img alt="background" src="../img/builder.svg" width="100"></span>
+                                        <h4>Opção 4: Use o Construtor</h4>
+                                        <p> Use apenas arrastar e soltar de Blocos e elementos para criar lindos sites com o <a href="../builder/">Construtor</a>, sem precisar ver uma linha de código. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <h2>Muitos motivos para 💖 o Pulse</h2>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a href="../cms/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Approved-Window icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Funciona em todo site, novo ou online</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../hosting/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon--lg icon-Cloud"></i> 
+                                    <span class="h5 color--primary"><p>Hospede onde quiser</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../cms/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Laptop-Secure icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Sem atualizações de sistema constantes</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../cms/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Timer-2 icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Economize dores de cabeça e tempo</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../cms/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Credit-Card3 icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Sem assinatura mensal</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../cms/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon--lg icon-Checked-User"></i> 
+                                    <span class="h5 color--primary"><p>Fácil para o cliente editar páginas</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../cms/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Thunder icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Editor rápido e seguro</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../cms/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon--lg icon-Handshake"></i> 
+                                    <span class="h5 color--primary"><p>Várias integrações</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <h2>A comunidade Pulse é importante para nós</h2>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="feature feature-1">
+                                <img alt="Image" src="../img/forum.jpg"/>
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h4>Fórum</h4>
+                                    <p class="lead">
+                                       Tem uma pergunta ou quer compartilhar algo? Use nosso fórum.  </p>
+                                    <a href="https://forum.pulsecms.com/" target="_blank">
+                                        Entre no debate. </a>
+                                </div>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-1">
+                                <img alt="Image" src="../img/facebook.jpg"/>
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h4>Grupo no Facebook</h4>
+                                    <p class="lead">
+                                        Passamos um tempo legal no Facebook. Junte-se a nós. </p>
+                                    <a href="https://www.facebook.com/pulsecms/" target="_blank">
+                                        Nos siga no Facebook. </a>
+                                </div>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-1">
+                                <img alt="Image" src="../img/meetup2a.jpg"/>
+                                <div class="feature__body boxed boxed--lg boxed--border">
+                                    <h4>Meetups do Pulse</h4>
+                                    <p class="lead">
+                                        Fazemos workshops por aí. Comece um na sua cidade. </p>
+                                    <a href="https://pulsecms.connpass.com/" target="_blank">
+                                        Ache um meetup no Japão. </a>
+                                </div>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="text-center imagebg" data-overlay="4" id="pulse5">
+                <div class="background-image-holder"> 
+                    <img alt="background" src="../img/wave.jpg"> 
+                </div>
+                <div class="container">
+                    <h2>Muitas novidades no Pulse5!</h2>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Love-Window icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Novo design de interface</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Flag-2 icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Multi-idiomas</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Add-UserStar icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Mais usuários</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Type-Pass icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Segurança com 2FA!</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../" ulse5 "" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Search-onCloud icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Busca no site todo</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Music-Player icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Reprodutor de mídia</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon--lg icon-Handshake"></i> 
+                                    <span class="h5 color--primary"><p>Mais integraçãoes</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../ecommerce/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Shop icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Ecommerce</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Brush icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Seletor de temas</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../builder/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Pencil-Ruler icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Construotr de sites</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Edit icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Editor Inline</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Optimization icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Melhor SEO</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Megaphone icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Blogs podersosos</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Photos icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Atualizações na galeria</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="icon-Bar-Chart3 icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>Melhores estatísticas</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="../pulse5/" class="block">
+                                <div class="feature boxed boxed--border border--round"> 
+                                    <i class="stack-plus-circled icon--lg"></i> 
+                                    <span class="h5 color--primary"><p>E muito mais!</p></span> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonials-1 space--xs">
+                <div class="container">
+                    <div class="heading-block">
+                        <br/>
+                        <center>
+                            <h2>Histórias de usuários do Pulse</h2>
+                        </center>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <p class="lead"> Usado por mais de 4.000 clientes <br class="hidden-xs hidden-sm"> em mais de  30 países </p>
+                        </div>
+                        <div class="col-sm-8">
+                            <ul class="list-inline social-list">
+                                <li> 
+                                    <img alt="Image" class="image--xs" src="../img/featured1.png"> 
+                                </li>
+                                <li> 
+                                    <img alt="Image" class="image--xs" src="../img/featured2.png"> 
+                                </li>
+                                <li> 
+                                    <img alt="Image" class="image--xs" src="../img/featured3.png"> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="testimonial testimonial-2">
+                                <div class="testimonial__body boxed boxed--border bg--secondary">
+                                    <p>  O Pulse parece ser perfeito para mim e para o meu negócio de desenvolvimento web! Amei a camiseta!  </p>
+                                </div>
+                                <div class="testimonial__image"> 
+                                    <img alt="Image" class="round" src="../img/tim.jpg">
+                                    <h5>Tim Plumb</h5> 
+                                    <span>Designer da GB</span> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="testimonial testimonial-2">
+                                <div class="testimonial__body boxed boxed--border bg--secondary">
+                                    <p> Eu estava procurando por um CMS sem banco de dadso para escrever manuais usando markdown. Finalmente temos um vencedor! </p>
+                                </div>
+                                <div class="testimonial__image"> 
+                                    <img alt="Image" class="round" src="../img/paul.jpg">
+                                    <h5>Paul Boag</h5> 
+                                    <span>UX Designer GB</span> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="testimonial testimonial-2">
+                                <div class="testimonial__body boxed boxed--border bg--secondary">
+                                    <p> Eu acho que para clientes com sites simples este é o CMS perfeito. Fácil de criar modelos. Simples de usar. O WYSIWYG dele é demais.</p>
+                                </div>
+                                <div class="testimonial__image"> 
+                                    <img alt="Image" class="round" src="../img/steve.jpg">
+                                    <h5>Steve White</h5> 
+                                    <span>Designer de UI e UX  dos EUA</span> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="testimonial testimonial-2">
+                                <div class="testimonial__body boxed boxed--border bg--secondary">
+                                    <p>  O Pulse é um CMS ótimo, especialmente para designers que morrem de medo de programção. Dá pra dividir um site em blocos e atualizar eles.</p>
+                                </div>
+                                <div class="testimonial__image"> 
+                                    <img alt="Image" class="round" src="../img/jay.jpg">
+                                    <h5>Jay Kaushal</h5> 
+                                    <span>Freelancer da IND</span> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="testimonial testimonial-2">
+                                <div class="testimonial__body boxed boxed--border bg--secondary">
+                                    <p> Impressionante!! É hora de deixar o WordPress? Usar o Blocs + Pulse CMS pode ser a melhor escolha para freelancers.</p>
+                                </div>
+                                <div class="testimonial__image"> 
+                                    <img alt="Image" class="round" src="../img/ken.jpg">
+                                    <h5>Kenichi Nakaya</h5> 
+                                    <span>Web Designer do JAP</span> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="testimonial testimonial-2">
+                                <div class="testimonial__body boxed boxed--border bg--secondary">
+                                    <p>Mudei para o Pulse porque eu queria a capacidade de editar online + instalação leve. Valeu!<br><br> </p>
+                                </div>
+                                <div class="testimonial__image"> 
+                                    <img alt="Image" class="round" src="../img/eric.jpg">
+                                    <h5>Eric Merced</h5> 
+                                    <span>Cartoonista do EUA</span> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="testimonial testimonial-2">
+                                <div class="testimonial__body boxed boxed--border bg--secondary">
+                                    <p>Brincando com o Pulse... Parece que nunca foi tão fáil de configurar um CMS 😎 <br>Amei 😍</p>
+                                </div>
+                                <div class="testimonial__image"> 
+                                    <img alt="Image" class="round" src="../img/jannis.jpg">
+                                    <h5>Jannis Rondorf</h5> 
+                                    <span>Desenvolvedor de software da ALE</span> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="testimonial testimonial-2">
+                                <div class="testimonial__body boxed boxed--border bg--secondary">
+                                    <p> Feliz! Finalmente eu encontrei um CMS de flat-files simples e leve, que pode ser usado sem problemas pelos clientes.</p>
+                                </div>
+                                <div class="testimonial__image"> 
+                                    <img alt="Image" class="round" src="../img/edi.jpg">
+                                    <h5>Edi Goetschel</h5> 
+                                    <span>Designer da CHI</span> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-10">
+                            <div class="slider" data-paging="true">
+                                <ul class="slides">
+                                    <li>
+                                        <div class="testimonial">
+                                            <blockquote>"O Pulse é um CMS maduro que oferece o melhor retorno/benefício do valor que você paga por ele."</blockquote>
+                                            <img alt="Image" class="image--xs" src="../img/reviewer1.png"> 
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="testimonial">
+                                            <blockquote>"O Pulse é um CMS extremamente simples. A plataforma flat-file é incrivelmente leve em várias maneiras. O back-end é simples e fácil de usar, e os temas são descomplicados."</blockquote>
+                                            <img alt="Image" class="image--xxs" src="../img/reviewer2.png"> 
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="testimonial">
+                                            <blockquote>"Tão bom que salvou a minha pele muitas vezes em projetos de clientes. 
+                                                <br>5 estrelas 🌟🌟🌟🌟🌟"
+                                            </blockquote>
+                                            <img alt="Image" class="image--xxs" src="../img/reviewer3.png">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cover height-80 imagebg text-center" data-overlay="3">
+                <div class="background-image-holder"> 
+                    <img alt="background" src="../img/landing-3.jpg"> 
+                </div>
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1> Leia cases inspiradores de usuários do Pulse</h1>
+                            <a class="btn btn--primary type--uppercase" href="../stories/" target="_self"> <span class="btn__text"><span>ACHE INSPIRAÇÃO</span></span> </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8">
+                            <h1>Cadastra-se agora, compre depois de testar.</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="switchable">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5">
+                            <div class="switchable__text">
+                                <div class="switchable__text">
+                                    <h2>Trabalhe do seu jeito. Edite de qualque lugar.</h2>
+                                    <p class="lead">Elimine horas de suporte ao cliente integrando o Pulse na sua rotina de trabalho. Download instantâneo, instale em seus próprios servidores, suporte premium por email (em inglês).</p>
+                                    <div class="testimonial testimonial-2">
+                                        <div class="testimonial__body boxed boxed--border">
+                                            <p> "Eu tenho trabalhado com o Joomla e o Wordpress, mas este CMS é tão bom que eu não preciso treinar meus clientes ou oferecer suporte depois que o projeto está no ar" </p>
+                                        </div>
+                                        <div class="testimonial__image"> 
+                                            <img alt="Image" src="../img/johan.jpg" class="round">
+                                            <h5>Johan Sträter</h5> 
+                                            <span>Designer de produto e web da ALE</span> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-md-pull-1 col-xs-12">
+                            <div class="pricing pricing-1 boxed boxed--lg boxed--border">
+                                <h3>Pague uma vez, use pra sempre</h3> 
+                                <span class="h2"><strong>R$ 999</strong></span> 
+                                <span class="type--fine-print">O valor de of R$ 999 cobre tudo.</span> 
+                                <span class="label">Apenas</span>
+                                <hr>
+                                <ul>
+                                    <li>
+                                        <span class="checkmark bg--primary-1"></span>
+                                        <span>Sites ilimitados</span>
+                                    </li>
+                                    <li>
+                                        <span class="checkmark bg--primary-1"></span>
+                                        <span>Instale em qualquer servidor</span>
+                                    </li>
+                                    <li>
+                                        <span class="checkmark bg--primary-1"></span>
+                                        <span>12 meses de atualizações + suporte prioritário</span>
+                                    </li>
+                                    <li>
+                                        <span class="checkmark bg--primary-1"></span>
+                                        <span>Painel de conta e download 24/7</span>
+                                    </li>
+                                    <li>
+                                        <span class="checkmark bg--primary-1"></span>
+                                        <span>Complementos Premium Pulse</span>
+                                    </li>
+                                    <li>
+                                        <span class="checkmark bg--primary-1"></span>
+                                        <span>Formulários, Ecommerce e Construtor de sites</span>
+                                    </li>
+                                </ul>
+                                <a class="btn btn--primary" href="../signup.php"> <span class="btn__text">
+                                        Cadastre-se e compre depois de testar </span> </a>
+                            </div>
+                            <center>
+                                <img alt="cards" src="../img/cards2.jpeg" style="width: 60%;">
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="text-center cta cta-4 space--xxs border--bottom bg--secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12"> 
+                            <span>Temos descontos para estudantes, professores, grupos e empresas. <a href="../signup.php">Cadastre-se</a> para mais informações.</span> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="cta cta-1 cta--horizontal boxed boxed--border text-center-xs">
+                                <div class="col-md-5 col-md-offset-1">
+                                    <p class="lead">Dúvidas se o Pulse é certo para você? Vamos conversar! </p>
+                                </div>
+                                <div class="col-md-3 text-center" style="padding-top:  21px;">
+                                    <!-- Calendly link widget begin -->
+                                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                                    <a href="" class="call" onclick="Calendly.showPopupWidget('https://calendly.com/yuzool');return false;">Agende uma conversa (inglês)</a>
+                                    <!-- Calendly link widget end -->
+                                </div>
+                                <style>
+            					   		.call {
+            					   		        margin: 0px;
+            					   		      }
+            					   		
+            					   		      .call {
+            					   		        border-radius: 4px;
+            					   		        background: #0084ff;
+            					   		        color: #fff;
+            					   		        font-size: 13px;
+            					   		        padding: 6px 8px;
+            					   		        display:inline-block;
+            					   		        font-family: helvetica, arial, sans-serifnn;
+            					   		        white-space: nowrap;
+            					   		      }
+            					   		
+            					   		      .call a {
+            					   		        cursor:pointer;
+            					   		        text-decoration:none;
+            					   		      }
+            					   			  
+            					   			  .call a:hover {
+            					   			    text-decoration: none;
+            					   			  
+            					   			  }
+            					   	</style>
+                                <div class="col-md-3 text-center" style="padding-top:  0px; ">
+                                    <script>      
+            						         window.fbAsyncInit = function() {
+            						           FB.init({
+            						             appId      : '95100348886',
+            						             xfbml      : true,
+            						             version    : 'v2.6'
+            						           });
+            						         };
+            						   
+            						         (function(d, s, id){
+            						           var js, fjs = d.getElementsByTagName(s)[0];
+            						           if (d.getElementById(id)) {return;}
+            						           js = d.createElement(s); js.id = id;
+            						           js.src = "//connect.facebook.net/en_US/sdk.js";
+            						           fjs.parentNode.insertBefore(js, fjs);
+            						         }(document, 'script', 'facebook-jssdk'));      
+            						       </script>
+                                    <div class="fb-messengermessageus" messenger_app_id="95100348886" page_id="pulsecms" color="blue" size="large">
+</div>
+                                    <div class="fb-messenger">
+                                        <a target="_blank" href="https://m.me/pulsecms"> <span style="top: -5px; position: relative;">
+            								          Fale conosco no Facebook </span> </a>
+                                    </div>
+                                    <style>
+            									.fb-messenger {
+            									        margin: 0px;
+            									      }
+            									
+            									      .fb-messenger span {
+            									        border-radius: 4px;
+            									        background: #0084ff;
+            									        color: #fff;
+            									        font-size: 13px;
+            									        padding: 6px 8px;
+            									        display:inline-block;
+            									        font-family: helvetica, arial, sans-serifnn;
+            									        white-space: nowrap;
+            									      }
+            									
+            									      .fb-messenger a {
+            									        cursor:pointer;
+            									        text-decoration:none;
+            									      }
+            								</style>                                     
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="text-center bg--secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-block">
+                        <h2>Siga nossas notícias no Instagram</h2>
+                    </div>
+                    <div class="instafeed" data-user-name="pulsecms" data-access-token="3082909439.e189626.019e8eeeb1e04f75bda4b45d13f3804d" data-client-id="e189626b0c674e718e0ec7a6d359c4a9" data-amount="6" data-grid="6"></div>
+                    <a class="btn btn--icon bg--instagram type--uppercase" href="https://www.instagram.com/pulsecms/"> <span class="btn__text"> <i class="socicon socicon-instagram"></i>
+                                    Seguir @pulsecms </span> </a>
+                </div>
+            </div>
+            <!--end row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <section class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="heading-block">
+                    <h2>Time do Pulse</h2>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature feature-8"> 
+                        <img alt="Image" class="round" src="../img/michael.jpg">
+                        <h5>Michael Frankland</h5> 
+                        <span>CEO</span> 
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature feature-8"> 
+                        <img alt="Image" class="round" src="../img/shiori.jpg">
+                        <h5>Shiori Kanesaka</h5> 
+                        <span>Chefe do time do Japão</span> 
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature feature-8"> 
+                        <img alt="Image" class="round" src="../img/rie.jpg">
+                        <h5>Rie Seguchi</h5> 
+                        <span>Evangelista chefe</span> 
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="feature feature-8"> 
+                        <img alt="Image" class="round" src="../img/jannis.jpg">
+                        <h5>Jannis Rondorf</h5> 
+                        <span>Integração RapidWeaver</span> 
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature feature-8"> 
+                        <img alt="Image" class="round" src="../img/jerome.jpg">
+                        <h5>Jerome Francis</h5> 
+                        <span>Desenvolvedor Chefe</span> 
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="feature feature-8"> 
+                        <img alt="Image" class="round" src="../img/tim.jpg">
+                        <h5>Tim Plumb</h5> 
+                        <span>Desenvolvedor de software de terceiros </span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cover text-center bg--secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                    <h1>#MadeinPulse</h1>
+                    <p class="lead"> Websites feitos com o Pulse pela comunidade. </p>
+                    <a class="btn btn--primary type--uppercase" href="https://twitter.com/madeinpulse" target="_blank"> <span class="btn__text">
+            			Dar uma olhada </span> </a> 
+                    <span class="block type--fine-print">ou compartilhar o meu via Twitter <a href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fabout.twitter.com%2Fresources%2Fbuttons&ref_src=twsrc%5Etfw&screen_name=pulsecms&text=%23MadeinPulse&tw_p=tweetbutton">#MadeinPulse</a></span> 
+                </div>
+                <div class="col-sm-12">
+                    <div class="triptych border--round"> 
+                        <img alt="Image" src="../img/squareclouds.jpg"> 
+                        <img alt="Image" src="../img/maxi.jpg"> 
+                        <img alt="Image" src="../img/rupert.jpg"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center imagebg" data-overlay="3">
+        <div class="background-image-holder">
+            <img alt="background" src="../img/landing-20.jpg"/>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                    <div class="cta">
+                        <h2 class="h1">Sonha em mandar faturas mais cedo para clientes ainda mais satisfeitos?</h2>
+                        <p class="lead">
+                                     Você nunca mais vai ter que dar suporte prolongado para clientes de pequenos projetos na web.</p>
+                        <a class="btn btn--primary type--uppercase" href="../signup.php"> <span class="btn__text">
+                                        DIGA ADEUS AO LONGO SUPORTE PRA CLIENTES </span> <span class="label">R$ 999</span> </a>
+                    </div>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <!--<div class="notification pos-right pos-bottom col-sm-4 col-md-3 notification--reveal" data-cookie="eu_cookies_message_dismissed" data-animation="from-top" data-autoshow="200" style="z-index:2247483647;">
+                            <div class="boxed boxed--border border--round box-shadow">
+                                <div class="text-block">
+                                    <h3>Pulse5 is here! ⚡️</h3>
+                                    <p>
+                                        Redesigned  Reengineered
+                                        for  Designers. <br/>The most powerful Pulse yet.<br/><br/>
+                                        <a class="btn btn--primary type--uppercase" href="https://pulsecms.com/pulse5"> <span class="btn__text">
+                                                                            	    Learn more about PULSE5
+                                                                            	</span>  </a>
+                                    </p>
+                                </div>
+                            </div>
+                         <div class="notification-close-cross notification-close"></div>
+            </div>-->
+    <footer class="text-center space--sm footer-5 bg--dark  ">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="heading-block">
+                        <ul class="list-inline list--hover">
+                            <li>
+                                <a href="https://addons.pulsecms.com" target="_blank"> <span>Complementos </span> </a>
+                            </li>
+                            <li>
+                                <a href="http://help.pulsecms.com" target="_blank"> <span>Suporte</span> </a>
+                            </li>
+                            <li>
+                                <a href="https://forum.pulsecms.com" target="_blank"> <span>Fórum</span> </a>
+                            </li>
+                            <li>
+                                <a href="mailto:help@pulsecms.com"> <span>Entre em conato</span> </a>
+                            </li>
+                            <li>
+                                <a href="https://pulsecms.com/assets/" target="_blank"> <span>Kit de imprensa</span> </a>
+                            </li>
+                            <li>
+                                <a href="http://shop.pulsecms.com/" target="_blank"> <span>Camisetas</span> </a>
+                            </li>
+                            <li>
+                                <a href="login.php"> <span>Log in</span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="social-list list-inline list--hover">
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=CU5aZo2noa0&list=PLVWdUeYA8dB3c3g3UXMKDPUG2HntKqxFq"> <i class="socicon socicon-youtube icon icon--xs"></i> </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/pulse_cms"> <i class="socicon socicon-twitter icon icon--xs"></i> </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/pulsecms/"> <i class="socicon socicon-facebook icon icon--xs"></i> </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/pulsecms/"> <i class="socicon socicon-instagram icon icon--xs"></i> </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/yuzoolcode/pulsecms-languages"> <i class="socicon socicon-github icon icon--xs"></i> </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <span class="type--fine-print">Feito em Kobe, Japão</span>
+                        <a href="https://pulse-japan.com">
+                            <img alt="Image" class="flag" src="../img/japan.png"/>
+                        </a>
+                    </div>
+                    <div>
+                        <span class="type--fine-print">&copy;
+                                    2009 - <span class="update-year"></span> Pulse CMS.</span>
+                    </div>
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </footer>
+</div>
+<!--<div class="loader"></div>-->
+<!--<a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+            <i class="stack-interface stack-up-open-big"></i>
+        </a>-->
+<!--FB Chat Widget-->
+<style>.fb-livechat,.fb-widget{display:none}.ctrlq.fb-button,.ctrlq.fb-close{position:fixed;right:24px;cursor:pointer}.ctrlq.fb-button{z-index:999;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxMjgiIGhlaWdodD0iMTI4cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxyZWN0IGZpbGw9IiMwMDg0RkYiIGhlaWdodD0iMTI4IiB3aWR0aD0iMTI4Ii8+PC9nPjxwYXRoIGQ9Ik02NCwxNy41MzFjLTI1LjQwNSwwLTQ2LDE5LjI1OS00Niw0My4wMTVjMCwxMy41MTUsNi42NjUsMjUuNTc0LDE3LjA4OSwzMy40NnYxNi40NjIgIGwxNS42OTgtOC43MDdjNC4xODYsMS4xNzEsOC42MjEsMS44LDEzLjIxMywxLjhjMjUuNDA1LDAsNDYtMTkuMjU4LDQ2LTQzLjAxNUMxMTAsMzYuNzksODkuNDA1LDE3LjUzMSw2NCwxNy41MzF6IE02OC44NDUsNzUuMjE0ICBMNTYuOTQ3LDYyLjg1NUwzNC4wMzUsNzUuNTI0bDI1LjEyLTI2LjY1N2wxMS44OTgsMTIuMzU5bDIyLjkxLTEyLjY3TDY4Ljg0NSw3NS4yMTR6IiBmaWxsPSIjRkZGRkZGIiBpZD0iQnViYmxlX1NoYXBlIi8+PC9zdmc+) center no-repeat #0084ff;width:60px;height:60px;text-align:center;bottom:24px;border:0;outline:0;border-radius:60px;-webkit-border-radius:60px;-moz-border-radius:60px;-ms-border-radius:60px;-o-border-radius:60px;box-shadow:0 1px 6px rgba(0,0,0,.06),0 2px 32px rgba(0,0,0,.16);-webkit-transition:box-shadow .2s ease;background-size:80%;transition:all .2s ease-in-out}.ctrlq.fb-button:focus,.ctrlq.fb-button:hover{transform:scale(1.1);box-shadow:0 2px 8px rgba(0,0,0,.09),0 4px 40px rgba(0,0,0,.24)}.fb-widget{background:#fff;z-index:999;position:fixed;width:360px;height:435px;overflow:hidden;opacity:0;bottom:0;right:24px;border-radius:6px;-o-border-radius:6px;-webkit-border-radius:6px;box-shadow:0 5px 40px rgba(0,0,0,.16);-webkit-box-shadow:0 5px 40px rgba(0,0,0,.16);-moz-box-shadow:0 5px 40px rgba(0,0,0,.16);-o-box-shadow:0 5px 40px rgba(0,0,0,.16)}.fb-credit{text-align:center;margin-top:2px}.fb-credit a{transition:none;color:#bec2c9;font-family:Helvetica,Arial,sans-serif;font-size:12px;text-decoration:none;border:0;font-weight:400}.ctrlq.fb-overlay{z-index:0;position:fixed;height:100vh;width:100vw;-webkit-transition:opacity .4s,visibility .4s;transition:opacity .4s,visibility .4s;top:0;left:0;background:rgba(0,0,0,.05);display:none}.ctrlq.fb-close{z-index:4;padding:0 6px;background:#365899;font-weight:700;font-size:11px;color:#fff;margin:8px;border-radius:3px}.ctrlq.fb-close::after{content:'x';font-family:sans-serif}</style> 
+<div class="fb-livechat"> 
+    <div class="ctrlq fb-overlay"></div>
+    <div class="fb-widget"> 
+        <div class="ctrlq fb-close"></div>
+        <div class="fb-page" data-href="https://www.facebook.com/pulsecms/" data-tabs="messages" data-width="360" data-height="400" data-small-header="true" data-hide-cover="true" data-show-facepile="false"> 
+            <blockquote cite="https://www.facebook.com/pulsecms/" class="fb-xfbml-parse-ignore"> </blockquote>             
+        </div>
+        <div class="fb-credit"> Para vendas: chat no Facebook ou Skype (
+            <a href="skype:Skypebanter?call">Skypebanter</a>)
+        </div>         
+    </div>
+    <div id="fb-root"></div>
+</div>
+<a href="https://m.me/pulsecms" title="Send us a message on Facebook" class="ctrlq fb-button"></a> 
+<script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<script>$(document).ready(function(){var t={delay:125,overlay:$(".fb-overlay"),widget:$(".fb-widget"),button:$(".fb-button")};setTimeout(function(){$("div.fb-livechat").fadeIn()},8*t.delay),$(".ctrlq").on("click",function(e){e.preventDefault(),t.overlay.is(":visible")?(t.overlay.fadeOut(t.delay),t.widget.stop().animate({bottom:0,opacity:0},2*t.delay,function(){$(this).hide("slow"),t.button.show()})):t.button.fadeOut("medium",function(){t.widget.stop().show().animate({bottom:"30px",opacity:1},2*t.delay),t.overlay.fadeIn(t.delay)})})});</script>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/flickity.min.js"></script>
+<script src="../js/easypiechart.min.js"></script>
+<script src="../js/parallax.js"></script>
+<script src="../js/isotope.min.js"></script>
+<script src="../js/ytplayer.min.js"></script>
+<script src="../js/lightbox.min.js"></script>
+<script src="../js/granim.min.js"></script>
+<script src="../js/countdown.min.js"></script>
+<script src="../js/twitterfetcher.min.js"></script>
+<script src="../js/spectragram.min.js"></script>
+<script src="../js/smooth-scroll.min.js"></script>
+<script src="../js/scripts.js"></script>
+<style>.madeinpulse-text {top: 11px!important;}.madeinpulse-badge {box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04)!important;border: 1px solid #ececec!important;}.back-to-top {bottom: 5.71428571em;}
+        </style>
+<link rel="stylesheet" href="https://pulsecms.com/assets/assets/madeinpulse/madeinpulse.min.css">
+<a class="madeinpulse-badge" href="https://pulsecms.com?utm_campaign=madeinpulse" style="left: 24px!important;right: auto!important; bottom: 26px!important;">
+    <img src="https://pulsecms.com/assets/assets/madeinpulse/madeinpulsetext.svg" class="madeinpulse-text">
+    <img src="https://pulsecms.com/assets/assets/madeinpulse/madeinpulselogo.svg" class="madeinpulse-logo">
+</a>
