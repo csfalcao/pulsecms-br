@@ -1,0 +1,31 @@
+/*! Place your custom styles here */
+.bar .logo {
+    max-height: 2em;
+    max-height: 3em;
+    margin-top: -5px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .logo-light {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .bar-4 .logo-dark {
+        margin-left: 20px;
+    }
+}
+
+.bar .menu-horizontal {
+    position: relative;
+    top: 12px;
+}
+
+.image--md {
+    max-height: 7.57142857em;
+}
